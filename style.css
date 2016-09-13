@@ -1,0 +1,208 @@
+/*
+
+style.css
+The stylesheet for your quilt page.  You can change this file to whatever you want, this is just a sample.
+
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(admin/img/bg.gif);
+	font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+	font-size: 75%;
+	color: #000;
+	line-height: 1.5em;
+}
+
+img {
+	border: 0;
+}
+
+p {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+.center,
+p.pages {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 20px 0;
+	padding: 0;
+	line-height: normal;
+}
+
+ul {
+	margin: 0 0 20px 40px;
+	padding: 0;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+
+input, select, textarea {
+	font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+	font-size: 100%;
+	color: #000;
+	background-color: #99cc00;
+	border: 1px solid #000;
+	padding: 3px;
+}
+
+#wrap {
+	width: 601px;
+	margin: 10px auto 0 auto;
+}
+
+#header {
+	height: 80px;
+}
+
+#header a {
+	position: static;
+}
+
+#content {
+	padding: 15px 15px 1px 15px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	background: url(admin/img/sand.png);
+	text-align: left;
+}
+
+#content h1 {
+	font-size: 110%;
+	color: #84A510;
+	border-bottom: 1px solid #99cc00;
+	padding-bottom: 2px;
+}
+
+#content abbr,
+#content acronym {
+	border-bottom: 1px dashed #99cc00;
+	cursor: help;
+}
+
+#content a {
+	color: #84A510;
+	border-bottom: 1px dashed #99cc00;
+}
+
+#content .quilt {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#content #cat-1 {
+	margin-bottom: 0;
+}
+
+#content .quilt a {
+	position: static;
+	border-bottom-width: 0;
+}
+
+#content p.pages a,
+#content p.pages span {
+	padding: 3px 6px;
+	border: 1px solid #000;
+	background-color: #99cc00;
+	margin-right: 3px;
+	color: #669900;
+}
+
+#content p.pages span {
+	color: #fff;
+}
+
+#content fieldset {
+	margin: 0 auto;
+	padding: 0;
+	border: 0 solid #000;
+	width: 30em;
+}
+
+#content fieldset ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+
+#content fieldset ol li {
+	margin-bottom: 15px;
+}
+
+#content fieldset ol li label {
+	float: left;
+	width: 10em;
+	padding-right: 1em;
+	text-align: right;
+}
+
+#content fieldset ol li input,
+#content fieldset ol li select,
+#content fieldset ol li textarea {
+	width: 18em;
+}
+
+#content fieldset ol li input.auto,
+#content fieldset ol li select.auto,
+#content fieldset ol li textarea.auto {
+	width: auto;
+}
+
+#content fieldset ol li.button {
+	padding-right: 0.5em;
+	text-align: right;
+}
+
+* html #content fieldset ol li.button {
+	padding-right: 1.5em;
+}
+
+#content fieldset ol li input.button {
+	width: auto;
+	margin-bottom: 20px;
+}
+
+#content ul.trade-log,
+#content ul.trade-log-archives {
+	list-style: none;
+	line-height: 1.8em;
+}
+
+#content ul.trade-log li,
+#content ul.trade-log-archives li {
+	background: url(images/bullet.gif) 0 0.5em no-repeat;
+	padding-left: 15px;
+}
+
+#footer {
+	margin: 0 auto;
+	width: 601px;
+	padding: 17px 0 10px 0;
+	background: url(images/footer.gif) top left no-repeat;
+	font-size: 95%;
+}
+
+#footer a {
+	color: #fff;
+	font-weight: bold;
+}

@@ -1,0 +1,413 @@
+/*******************************************************************************
+*
+*	CSS BY BUBS
+*	http://bubblessoc.net/
+*	Feel free to steal :)
+*
+*******************************************************************************/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+	font-size: 9pt;
+	color: #000;
+	line-height: 1.5em;
+	background: url(img/bg.gif);
+}
+
+img {
+	border: 0;
+}
+
+hr {
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 20px 0;
+	padding: 0;
+	line-height: normal;
+	color: #84A510;
+}
+
+p {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+ul, ol {
+	margin: 0 0 20px 40px;
+	padding: 0;
+}
+
+ul {
+	list-style-type: square;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+input, select, textarea {
+	font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+	font-size: 9pt;
+	color: #000;
+	background-color: #99cc00;
+	border: 1px solid #000;
+	padding: 3px;
+}
+
+#wrap,
+#wrap-short {
+	width: 775px;
+	margin: 10px auto 0 auto;
+	background: url(img/sand.png) top center;
+}
+
+#wrap-short {
+	width: 301px;
+	margin-top: 150px;
+}
+
+#header h1 {
+	width: 775px;
+	height: 80px;
+	margin-bottom: 0;
+	background: url(img/topper_long.gif) top left no-repeat;
+	text-indent: -9999px;
+}
+
+#wrap-short #header h1 {
+	width: 301px;
+	background-image: url(img/topper.gif);
+}
+
+#header ul {
+	float: left;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	margin: 0;
+	padding-bottom: 15px;
+	list-style: none;
+}
+
+#header ul li {
+	float: left;
+	background: url(img/navbg.gif) bottom left repeat-x;
+}
+
+#header ul li a {
+	display: block;
+	width: 86px;
+	text-align: center;
+	padding-bottom: 10px;
+	color: #669900;
+}
+
+#header ul li#nav-quilt a {
+	width: 85px;
+}
+
+#header ul li a:hover,
+#header ul li a.selected {
+	color: #fff;
+	background: url(img/bulge.gif) bottom center no-repeat;
+}
+
+#content {
+	border: 1px solid #000;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	padding: 10px 10px 1px 10px;
+}
+
+#content abbr,
+#content acronym {
+	border-bottom: 1px dashed #99cc00;
+	cursor: help;
+}
+
+#content a {
+	color: #84A510;
+	border-bottom: 1px dashed #99cc00;
+}
+
+#content a:hover {
+	position: relative; 
+	left: 1px; 
+	top: 1px;
+}
+
+#content h1,
+#content h2 {
+	border-bottom: 1px solid #99cc00;
+	padding-bottom: 2px;
+	font-weight: normal;
+	font-size: 16pt;
+	font-family: "Georgia", "Times New Roman", serif;
+}
+
+#wrap-short #content h1 {
+	display: none;
+}
+
+#content h1 a,
+#content h2 a {
+	border-bottom-width: 0;
+	text-decoration: underline;
+}
+
+#content h2 {
+	border-bottom-width: 0;
+	font-size: 14pt;
+}
+
+#content p.error {
+	background: url(img/error.gif) 0 0.15em no-repeat;
+	padding-left: 68px;
+}
+
+#wrap-short #content p.error {
+	background: none;
+	padding-left: 0;
+}
+
+#content p.success {
+	background: url(img/success.gif) 0 0.15em no-repeat;
+	padding-left: 92px;
+}
+
+#content p.warning {
+	background: url(img/warning.gif) 0 0.15em no-repeat;
+	padding-left: 92px;
+	clear: both;
+}
+
+#content #email-split {
+	width: 750px;
+	float: left;
+	padding-bottom: 20px;
+}
+
+#content #email-split p {
+	width: 370px;
+	float: right;
+}
+
+#content fieldset {
+	margin: 0 0 20px 0;
+	padding: 0;
+	border: 0 solid #000;
+}
+
+#wrap-short #content fieldset {
+	margin-bottom: 0;
+}
+
+#content fieldset legend {
+	display: block;
+	margin: 0 0 20px 0;
+	padding: 0;
+	color: #84a510;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+#content fieldset ol {
+	margin: 0;
+	list-style: none;
+}
+
+#content fieldset ol li {
+	margin-bottom: 15px;
+}
+
+#content fieldset ol li label,
+#content fieldset ol li p.time span {
+	float: left;
+	width: 125px;
+}
+
+#wrap-short #content fieldset ol li label {
+	width: 100px;
+}
+
+#content fieldset.long ol li label {
+	width: 215px;
+}
+
+#content fieldset.kinda-long ol li label {
+	width: 150px;
+}
+
+#content fieldset ol li.radio label,
+#content fieldset.directory ol li label {
+	width: auto;
+	float: none;
+}
+
+#content fieldset ol li input,
+#content fieldset ol li select,
+#content fieldset ol li textarea {
+	width: 15em;
+}
+
+#wrap-short #content fieldset ol li input,
+#wrap-short #content fieldset ol li select,
+#wrap-short #content fieldset ol li textarea {
+	width: 160px;
+}
+
+#content fieldset ol li.radio input,
+#content fieldset ol li input.auto,
+#content fieldset ol li select.auto,
+#content fieldset ol li textarea.auto {
+	width: auto;
+}
+
+#content fieldset ol li#cat-qt .quicktags {
+	margin-left: 215px;
+	margin-bottom: 15px;
+}
+
+#content fieldset ol li#post-qt .quicktags {
+	margin-left: 125px;
+	margin-bottom: 15px;
+}
+
+#content fieldset ol li .quicktags input {
+	width: auto;
+	margin-right: 5px;
+}
+
+#content fieldset ol li textarea#post_content {
+	margin-left: 125px;
+	width: 35em;
+}
+
+#content fieldset ol li textarea#cat_desc {
+	margin-left: 215px;
+	width: 25em;
+}
+
+#content #email-split textarea#email_cont {
+	float: left;
+	width: 361px;
+}
+
+#content fieldset ol li p {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#content fieldset ol li p.note,
+#content fieldset ol li p.error {
+	margin-left: 125px;
+}
+
+#content fieldset.long ol li p.note,
+#content fieldset.long ol li p.error {
+	margin-left: 215px;
+}
+
+#content fieldset.kinda-long ol li p.note,
+#content fieldset.kinda-long ol li p.error {
+	margin-left: 150px;
+}
+
+#content fieldset.directory ol li p.note,
+#content fieldset.directory ol li p.error {
+	margin-left: 0;
+}
+
+#content input.button {
+	margin-left: 125px;
+}
+
+#wrap-short #content input.button {
+	margin-left: 100px;
+}
+
+#content input.button-long {
+	margin-left: 215px;
+}
+
+#content input.button-kinda-long {
+	margin-left: 150px;
+}
+
+#content table {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+#content table tr th a {
+	border-bottom-width: 0;
+}
+
+#content table tr th a:hover {
+	position: static;
+}
+
+#content table tr td {
+	text-align: center;
+}
+
+#content table tr.alt {
+	background: url(img/grass.gif);
+}
+
+#content table tr.alt a {
+	color: #fff;
+	border-bottom-width: 0;
+}
+
+#content table tr.alt abbr,
+#content table tr.alt acronym {
+	border-color: #fff;
+}
+
+#content p.pages a,
+#content p.pages span {
+	padding: 3px 6px;
+	border: 1px solid #000;
+	background-color: #99cc00;
+	margin-right: 3px;
+	color: #669900;
+}
+
+#content p.pages span {
+	color: #fff;
+}
+
+p.bottom {
+	width: 775px;
+	margin: 0 auto;
+	padding-top: 17px;
+	padding-bottom: 10px;
+	background: url(img/bottom.gif) top center no-repeat;
+	text-align: center;
+	font-size: 8pt;
+}
+
+p#short {
+	width: 301px;
+	background-image: url(img/bottom-short.gif);
+}
+
+p.bottom a {
+	color: #fff;
+	font-weight: bold;
+}
+
+p.bottom a:hover {
+	position: relative; 
+	left: 1px; 
+	top: 1px;
+}
